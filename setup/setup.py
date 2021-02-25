@@ -10,7 +10,7 @@ Bu islemler Linux (Kali, Ubuntu, Debian) uzerinde denenmistir.
 
 haziriz = input("Kurulumlari kurmaya hazirmisiniz? E/h : ")
 
-if haziriz == "e" or haziriz == "H" :
+if haziriz == "e" or haziriz == "E" :
     print("kurulumlar baslatildi")
     print("--------------------------------------")
     os.system('sudo apt install python3-pip')
